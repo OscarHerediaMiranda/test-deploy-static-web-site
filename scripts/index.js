@@ -3,3 +3,5 @@ function date() {
     var content = document.getElementById('date');
     content.textContent += " " + currentDate.getFullYear();
 }
+
+date();
