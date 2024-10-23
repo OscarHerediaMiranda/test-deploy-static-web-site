@@ -43,7 +43,7 @@ body {
     display: none;
 }
 .main {
-    padding-right: 10%;
+    padding-right: 2%;
     padding-left: 10%;
 }
 
@@ -76,6 +76,29 @@ body {
 
 .noticia_paragraph {
     padding: 8px 12px;
+    padding-top: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+}
+
+.barra_lateral {
+    padding: 24px;
+    border-left: 1px solid;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.listado_noticia {
+    list-style: none;
+    margin-bottom: 30px;
 }
 
 .footer {
