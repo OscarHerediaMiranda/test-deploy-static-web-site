@@ -5,3 +5,13 @@ function date() {
 }
 
 date();
+
+function showModal() {
+    var content = document.getElementById('contenido');
+    content.style.display = 'block';
+}
+
+function ocultarModal() {
+    var content = document.getElementById('contenido');
+    content.style.display = 'none';
+}

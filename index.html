@@ -42,6 +42,9 @@
     </header>
     <div class="container">
         <main class="main">
+            <section class="suscribe">
+                <button class="suscribe_button" onclick="showModal();">Suscribirse</button>
+            </section>
             <section class="main_noticias">
                 <div class="noticia">
                     <img src="./images/image.png" alt="" class="noticia_img">
@@ -68,6 +71,12 @@
                 <li class="listado_noticia">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa deserunt beatae officia nulla aliquam reprehenderit debitis possimus maxime est, perspiciatis exercitationem asperiores, temporibus ullam qui ea laudantium molestias delectus voluptates</li>
             </ul>
         </aside>
+    </div>
+    <div class="modal" id="contenido">
+        <div class="modal_content">
+            <span class="close_button" onclick="ocultarModal();">X</span>
+            <p class="modal_content_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa deserunt beatae officia nulla aliquam reprehenderit debitis possimus maxime est, perspiciatis exercitationem asperiores, temporibus ullam qui ea laudantium molestias delectus voluptates</p> 
+        </div>
     </div>
     <footer class="footer">
         <p id="date" class="footer_paragraph">@COPYRIGHT</p>
